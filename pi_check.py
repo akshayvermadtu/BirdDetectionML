@@ -50,7 +50,7 @@ while True:
     for (i, idx) in enumerate(idxs):
         print("[INFO] {}. label: {}, probability: {:.5}".format(i + 1,classes[idx], preds[0][idx]))
         if classes[idx] in target:
-            print("Warning...................................................")
+            print("Warning.............................................")
             G.output(14,True)
             time.sleep(2.0)
             G.output(14,False)
